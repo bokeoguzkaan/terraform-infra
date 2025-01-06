@@ -1,5 +1,9 @@
+# Terraform cache directory
 .terraform/
+
+# Terraform state files
 *.tfstate
 *.tfstate.backup
+
+# Sensitive Terraform variable files
 terraform.tfvars
-*.log
